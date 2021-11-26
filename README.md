@@ -7,6 +7,8 @@ The CLI is built with the CLI framework [Cobra](https://github.com/spf13/cobra).
 
 The functionallity of the application is implemented with the **go standard library** library.
 
+For the elliptic curve cryptography the [ECDSA P256](https://csrc.nist.gov/csrc/media/events/workshop-on-elliptic-curve-cryptography-standards/documents/papers/session6-adalier-mehmet.pdf) curve is used & for the signature creation / verification the **SHA-256** hash algorithm is used.
+
 ## Functionality 
 
 - create an EC Private / Public key-pair.
